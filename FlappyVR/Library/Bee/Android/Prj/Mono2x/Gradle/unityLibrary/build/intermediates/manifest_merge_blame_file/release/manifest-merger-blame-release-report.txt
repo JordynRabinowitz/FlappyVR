@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:installLocation="auto"
+6    android:versionCode="1"
+7    android:versionName="0.1" >
+8
+9    <uses-sdk
+10        android:minSdkVersion="23"
+10-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11        android:targetSdkVersion="30" />
+11-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+12
+13    <uses-feature android:glEsVersion="0x00030000" />
+13-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-52
+13-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-49
+14    <uses-feature
+14-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-91
+15        android:name="android.hardware.vulkan.version"
+15-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-63
+16        android:required="false" />
+16-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:64-88
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-65
+18-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:20-62
+19
+20    <uses-feature
+20-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-88
+21        android:name="android.hardware.touchscreen"
+21-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-60
+22        android:required="false" />
+22-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:61-85
+23    <uses-feature
+23-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-99
+24        android:name="android.hardware.touchscreen.multitouch"
+24-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-71
+25        android:required="false" />
+25-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:72-96
+26    <uses-feature
+26-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-108
+27        android:name="android.hardware.touchscreen.multitouch.distinct"
+27-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-80
+28        android:required="false" />
+28-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:81-105
+29    <uses-feature
+29-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-111
+30        android:name="android.hardware.vr.headtracking"
+30-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-64
+31        android:required="true"
+31-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:65-88
+32        android:version="1" />
+32-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:89-108
+33
+34    <application android:extractNativeLibs="true" >
+34-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-25:17
+34-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+35        <activity
+35-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+36            android:name="com.unity3d.player.UnityPlayerActivity"
+36-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+37            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+37-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:204-305
+38            android:hardwareAccelerated="false"
+38-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:341-376
+39            android:launchMode="singleTask"
+39-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:172-203
+40            android:resizeableActivity="false"
+40-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:306-340
+41            android:screenOrientation="landscape"
+41-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:134-171
+42            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+42-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-133
+43            <intent-filter>
+43-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+44-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+46-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+47                <category android:name="com.oculus.intent.category.VR" />
+47-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+47-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+48            </intent-filter>
+49
+50            <meta-data
+50-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+51                android:name="unityplayer.UnityActivity"
+51-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+52                android:value="true" />
+52-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+53            <meta-data
+53-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+54                android:name="android.notch_support"
+54-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+55                android:value="true" />
+55-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+56            <meta-data
+56-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-81
+57                android:name="com.oculus.vr.focusaware"
+57-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-57
+58                android:value="true" />
+58-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:58-78
+59        </activity>
+60
+61        <meta-data
+61-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+62            android:name="unity.splash-mode"
+62-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+63            android:value="0" />
+63-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+64        <meta-data
+64-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+65            android:name="unity.splash-enable"
+65-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+66            android:value="True" />
+66-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+67        <meta-data
+67-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+68            android:name="unity.launch-fullscreen"
+68-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+69            android:value="True" />
+69-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+70        <meta-data
+70-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+71            android:name="unity.allow-resizable-window"
+71-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+72            android:value="False" />
+72-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+73        <meta-data
+73-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+74            android:name="notch.config"
+74-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+75            android:value="portrait|landscape" />
+75-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+76        <meta-data
+76-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-84
+77            android:name="unity.auto-report-fully-drawn"
+77-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-60
+78            android:value="true" />
+78-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:61-81
+79        <meta-data
+79-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-97
+80            android:name="com.samsung.android.vr.application.mode"
+80-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-70
+81            android:value="vr_only" />
+81-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:71-94
+82        <meta-data
+82-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-91
+83            android:name="com.unity.xr.oculus.LowOverheadMode"
+83-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-66
+84            android:value="false" />
+84-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:67-88
+85        <meta-data
+85-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-88
+86            android:name="com.unity.xr.oculus.LateLatching"
+86-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-63
+87            android:value="false" />
+87-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:64-85
+88        <meta-data
+88-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-93
+89            android:name="com.unity.xr.oculus.LateLatchingDebug"
+89-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-68
+90            android:value="false" />
+90-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:69-90
+91        <meta-data
+91-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-90
+92            android:name="com.oculus.supportedDevices"
+92-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:16-58
+93            android:value="quest|quest2" />
+93-->C:\Users\jordy\FlappyVR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:59-87
+94    </application>
+95
+96</manifest>

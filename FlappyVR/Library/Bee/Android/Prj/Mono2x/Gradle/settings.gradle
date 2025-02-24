@@ -1,0 +1,14 @@
+pluginManagement {
+    buildscript {
+        repositories {
+            mavenCentral()
+            google()
+        }
+        dependencies {
+            classpath("com.android.tools:r8:4.0.48")
+        }
+    }
+}
+
+include ':launcher', ':unityLibrary'
+include 'unityLibrary:xrmanifest.androidlib'
